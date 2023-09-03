@@ -151,7 +151,6 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - DIRECT
       - 美国-1
       - 美国-2
       - 美国1
