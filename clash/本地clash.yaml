@@ -95,15 +95,6 @@ proxy-providers:
       enable: true
       interval: 600
       url: http://www.gstatic.com/generate_204
-  白嫖机场:
-    type: http
-    url: "https://xn--mesv7f5toqlp.com/api/v1/client/subscribe?token=e59b8d981b726fb9f9c9f1daa771cab7"
-    interval: 86400
-    path: ./白嫖机场.yaml
-    health-check:
-      enable: true
-      interval: 600
-      url: http://www.gstatic.com/generate_204
   一元机场:
     type: http
     url: "https://sub1.smallstrawberry.com/api/v1/client/subscribe?token=i1b9j17ggro0emgvjln1cs1hk4d2yryy"
@@ -123,18 +114,15 @@ proxy-providers:
       interval: 600
       url: http://www.gstatic.com/generate_204      
 
-proxies: 
-  - {name: 🇺🇸 美国光速29, server: 162.159.142.229, port: 80, type: vmess, uuid: 42449f63-918c-49bf-bebe-e4024bff87d0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /1654431, headers: {Host: us2.mybestjj.com}}, udp: true}
+proxies: []
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇸 美国光速29
     use:
       - CF
-      - 白嫖机场
       - 一元机场
       - 海豚云
 
@@ -144,7 +132,6 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇸 美国光速29
     use:
       - CF
       - 白嫖机场
@@ -156,10 +143,8 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国光速29
     use:
       - CF
-      - 白嫖机场
       - 一元机场
       - 海豚云
   - name: 📲 电报信息
@@ -167,10 +152,8 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸 美国光速29
     use:
       - CF
-      - 白嫖机场
       - 一元机场
       - 海豚云
   - name: Ⓜ️ 微软服务
@@ -178,10 +161,8 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇺🇸 美国光速29
     use:
       - CF
-      - 白嫖机场
       - 一元机场
       - 海豚云
   - name: 🍎 苹果服务
@@ -189,10 +170,8 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸 美国光速29
     use:
       - CF
-      - 白嫖机场
       - 一元机场
       - 海豚云
   - name: 🎯 全球直连
@@ -203,7 +182,6 @@ proxy-groups:
       - ♻️ 自动选择
     use:
       - CF
-      - 白嫖机场
       - 一元机场
       - 海豚云
   - name: 🛑 全球拦截
@@ -224,7 +202,6 @@ proxy-groups:
       - ♻️ 自动选择
     use:
       - CF
-      - 白嫖机场
       - 一元机场
       - 海豚云
 rules:
