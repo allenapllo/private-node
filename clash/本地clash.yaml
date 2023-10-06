@@ -104,6 +104,24 @@ proxy-providers:
       enable: true
       interval: 600
       url: http://www.gstatic.com/generate_204   
+  白嫖机场:
+    type: http
+    url: "https://sub.xn--mesv7f5toqlp.com/api/v1/client/subscribe?token=e59b8d981b726fb9f9c9f1daa771cab7"
+    interval: 86400
+    path: ./白嫖机场.yaml
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204   
+  海豚云:
+    type: http
+    url: "https://s.haituncloud.vip/link/bcdMXijMtrn0hseZ?clash=1"
+    interval: 86400
+    path: ./海豚云.yaml
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204     
 
 proxies: 
   - {name: 占位, server: 162.159.142.229, port: 80, type: vmess, uuid: 42449f63-918c-49bf-bebe-e4024bff87d0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /1654431, headers: {Host: us2.mybestjj.com}}, udp: true}
@@ -117,6 +135,8 @@ proxy-groups:
     use:
       - CF
       - 一元机场
+      - 白嫖机场
+      - 海豚云
 
   - name: ♻️ 自动选择
     type: url-test
@@ -128,6 +148,8 @@ proxy-groups:
     use:
       - CF
       - 一元机场
+      - 白嫖机场
+      - 海豚云
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -138,6 +160,8 @@ proxy-groups:
     use:
       - CF
       - 一元机场
+      - 白嫖机场
+      - 海豚云
   - name: 📲 电报信息
     type: select
     proxies:
@@ -147,6 +171,8 @@ proxy-groups:
     use:
       - CF
       - 一元机场
+      - 白嫖机场
+      - 海豚云
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -156,6 +182,8 @@ proxy-groups:
     use:
       - CF
       - 一元机场
+      - 白嫖机场
+      - 海豚云
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -165,6 +193,8 @@ proxy-groups:
     use:
       - CF
       - 一元机场
+      - 白嫖机场
+      - 海豚云
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -174,6 +204,8 @@ proxy-groups:
     use:
       - CF
       - 一元机场
+      - 白嫖机场
+      - 海豚云
   - name: 🛑 全球拦截
     type: select
     proxies:
@@ -193,6 +225,8 @@ proxy-groups:
     use:
       - CF
       - 一元机场
+      - 白嫖机场
+      - 海豚云
 rules:
 # 本地/局域网地址
 # 参考：https://en.wikipedia.org/wiki/Reserved_IP_addresses
