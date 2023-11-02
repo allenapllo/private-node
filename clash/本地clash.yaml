@@ -140,6 +140,69 @@ proxy-providers:
       enable: true
       interval: 600
       url: http://www.gstatic.com/generate_204
+  快狗云:
+    type: http
+    url: "https://www.kuaigou.life/api/v1/client/subscribe?token=e0d6f8d78f03d837f7427fa066b55f8b"
+    interval: 86400
+    path: ./快狗云.yaml
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204    
+  番茄云:
+    type: http
+    url: "https://cloud1.fanqiecloud.top/api/v1/client/subscribe?token=082c094d1b08bc867b0b09306e7b6e47"
+    interval: 86400
+    path: ./番茄云.yaml
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+  爱快加速:
+    type: http
+    url: "https://dy.ikuai66.xyz/api/v1/client/subscribe?token=a5d533b8ad2ade232b004eb73df0eae7"
+    interval: 86400
+    path: ./爱快加速.yaml
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+  飞鸟:
+    type: http
+    url: "https://sub4.tnetvpn.site/api/v1/client/subscribe?token=685db69acaf4dbadb8c3a469b235b2d2"
+    interval: 86400
+    path: ./飞鸟.yaml
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204    
+  一元场:
+    type: http
+    url: "https://xn--4gq62f52g.com/api/v1/client/subscribe?token=cd1306394fdac2502bcade3ee0e52ccc"
+    interval: 86400
+    path: ./一元场.yaml
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+  大白:
+    type: http
+    url: "https://l.db01.in/link/j5niriM2V0FqSzQU?clash=1"
+    interval: 86400
+    path: ./大白.yaml
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+  一方加速器:
+    type: http
+    url: "https://yifang.win/link/JxsFjOgd7yEijHGL?clash=1"
+    interval: 86400
+    path: ./一方加速器.yaml
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
 
 
 proxies: 
@@ -158,6 +221,13 @@ proxy-groups:
       - 海豚云
       - 三藏云
       - 超级机场
+      - 快狗云
+      - 番茄云
+      - 爱快加速
+      - 飞鸟
+      - 一元场
+      - 大白
+      - 一方加速器
 
   - name: ♻️ 自动选择
     type: url-test
@@ -173,6 +243,14 @@ proxy-groups:
       - 海豚云
       - 三藏云
       - 超级机场
+      - 快狗云
+      - 番茄云
+      - 爱快加速
+      - 飞鸟
+      - 一元场
+      - 大白
+      - 一方加速器
+
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -187,6 +265,14 @@ proxy-groups:
       - 海豚云
       - 三藏云
       - 超级机场
+      - 快狗云
+      - 番茄云
+      - 爱快加速
+      - 飞鸟
+      - 一元场
+      - 大白
+      - 一方加速器
+
   - name: 📲 电报信息
     type: select
     proxies:
@@ -200,6 +286,14 @@ proxy-groups:
       - 海豚云
       - 三藏云
       - 超级机场
+      - 快狗云
+      - 番茄云
+      - 爱快加速
+      - 飞鸟
+      - 一元场
+      - 大白
+      - 一方加速器
+
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -213,6 +307,14 @@ proxy-groups:
       - 海豚云
       - 三藏云
       - 超级机场
+      - 快狗云
+      - 番茄云
+      - 爱快加速
+      - 飞鸟
+      - 一元场
+      - 大白
+      - 一方加速器
+
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -226,6 +328,14 @@ proxy-groups:
       - 海豚云
       - 三藏云
       - 超级机场
+      - 快狗云
+      - 番茄云
+      - 爱快加速
+      - 飞鸟
+      - 一元场
+      - 大白
+      - 一方加速器
+
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -239,6 +349,14 @@ proxy-groups:
       - 海豚云
       - 三藏云
       - 超级机场
+      - 快狗云
+      - 番茄云
+      - 爱快加速
+      - 飞鸟
+      - 一元场
+      - 大白
+      - 一方加速器
+
   - name: 🛑 全球拦截
     type: select
     proxies:
@@ -262,6 +380,13 @@ proxy-groups:
       - 海豚云
       - 三藏云
       - 超级机场
+      - 快狗云
+      - 番茄云
+      - 爱快加速
+      - 飞鸟
+      - 一元场
+      - 大白
+      - 一方加速器
 rules:
 # 本地/局域网地址
 # 参考：https://en.wikipedia.org/wiki/Reserved_IP_addresses
