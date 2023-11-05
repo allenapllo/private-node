@@ -346,6 +346,18 @@ proxy-groups:
       - 大白
       - 一方加速器
       - 来一杯红茶
+      - 星河583
+      - EMO
+      - fastest
+      - 三喜机场
+      - vvv
+      - 冲浪云
+      - 一颗机场
+      - 养老机场
+      - 便宜机场
+      - X
+      - AnTu
+      - sspanel
 
   - name: ♻️ 自动选择
     type: url-test
@@ -369,6 +381,18 @@ proxy-groups:
       - 大白
       - 一方加速器
       - 来一杯红茶
+      - 星河583
+      - EMO
+      - fastest
+      - 三喜机场
+      - vvv
+      - 冲浪云
+      - 一颗机场
+      - 养老机场
+      - 便宜机场
+      - X
+      - AnTu
+      - sspanel
 
   - name: 🌍 国外媒体
     type: select
@@ -392,6 +416,18 @@ proxy-groups:
       - 大白
       - 一方加速器
       - 来一杯红茶
+      - 星河583
+      - EMO
+      - fastest
+      - 三喜机场
+      - vvv
+      - 冲浪云
+      - 一颗机场
+      - 养老机场
+      - 便宜机场
+      - X
+      - AnTu
+      - sspanel
 
   - name: 📲 电报信息
     type: select
@@ -414,6 +450,18 @@ proxy-groups:
       - 大白
       - 一方加速器
       - 来一杯红茶
+      - 星河583
+      - EMO
+      - fastest
+      - 三喜机场
+      - vvv
+      - 冲浪云
+      - 一颗机场
+      - 养老机场
+      - 便宜机场
+      - X
+      - AnTu
+      - sspanel
 
   - name: Ⓜ️ 微软服务
     type: select
@@ -436,6 +484,18 @@ proxy-groups:
       - 大白
       - 一方加速器
       - 来一杯红茶
+      - 星河583
+      - EMO
+      - fastest
+      - 三喜机场
+      - vvv
+      - 冲浪云
+      - 一颗机场
+      - 养老机场
+      - 便宜机场
+      - X
+      - AnTu
+      - sspanel
 
   - name: 🍎 苹果服务
     type: select
@@ -458,6 +518,18 @@ proxy-groups:
       - 大白
       - 一方加速器
       - 来一杯红茶
+      - 星河583
+      - EMO
+      - fastest
+      - 三喜机场
+      - vvv
+      - 冲浪云
+      - 一颗机场
+      - 养老机场
+      - 便宜机场
+      - X
+      - AnTu
+      - sspanel
 
   - name: 🎯 全球直连
     type: select
@@ -480,6 +552,18 @@ proxy-groups:
       - 大白
       - 一方加速器
       - 来一杯红茶
+      - 星河583
+      - EMO
+      - fastest
+      - 三喜机场
+      - vvv
+      - 冲浪云
+      - 一颗机场
+      - 养老机场
+      - 便宜机场
+      - X
+      - AnTu
+      - sspanel
 
   - name: 🛑 全球拦截
     type: select
@@ -512,6 +596,18 @@ proxy-groups:
       - 大白
       - 一方加速器
       - 来一杯红茶
+      - 星河583
+      - EMO
+      - fastest
+      - 三喜机场
+      - vvv
+      - 冲浪云
+      - 一颗机场
+      - 养老机场
+      - 便宜机场
+      - X
+      - AnTu
+      - sspanel
 rules:
 # 本地/局域网地址
 # 参考：https://en.wikipedia.org/wiki/Reserved_IP_addresses
