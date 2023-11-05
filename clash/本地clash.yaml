@@ -133,7 +133,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   超级机场:
     type: http
-    url: "https://v1.chaojiji.one/api/v1/client/subscribe?token=c4d6c72c30017c32357b31880f8f5f0c"
+    url: "https://v1.chaojiji.one/api/v1/client/subscribe?token=aa17feffffcf03771a0ee2056f61430e"
     interval: 86400
     path: ./超级机场.yaml
     health-check:
@@ -203,6 +203,123 @@ proxy-providers:
       enable: true
       interval: 600
       url: http://www.gstatic.com/generate_204
+  来一杯红茶:
+    type: http
+    url: "http://bp.wbno1.xyz/api/v1/client/subscribe?token=af858d0ee6c41797a6764aab3d853666"
+    interval: 86400
+    path: ./来一杯红茶.yaml
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+  星河583:
+    type: http
+    url: "https://001.583180.xyz/api/v1/client/subscribe?token=cde0eda9058ffb3a16ca5d94c76cdb82"
+    interval: 86400
+    path: ./星河583.yaml
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+  EMO:
+    type: http
+    url: "https://002.8698681.xyz/api/v1/client/subscribe?token=f1e99f84b49b1ab8a2640ef9d5020680"
+    interval: 86400
+    path: ./EMO.yaml
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+  fastest:
+    type: http
+    url: "https://22.lownet.xyz/api/v1/client/subscribe?token=8c241dc17a44101f8fcb66471116eeb8"
+    interval: 86400
+    path: ./fastest.yaml
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+  三喜机场:
+    type: http
+    url: "http://dy007.sanxi.cyou/api/v1/client/subscribe?token=d3cead081c4d4e1e5a73c707448a21dd"
+    interval: 86400
+    path: ./三喜机场.yaml
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+  vvv:
+    type: http
+    url: "https://api.vvv123.store/api/v1/client/subscribe?token=93a92d93d3ae97988d187101affeacb9"
+    interval: 86400
+    path: ./vvv.yaml
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+  冲浪云:
+    type: http
+    url: "https://dingyue.cloudaccess.icu/api/v1/client/subscribe?token=354b9a500c4424b2651f8593e39d3de6&flag=clash"
+    interval: 86400
+    path: ./冲浪云.yaml
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+  一颗机场:
+    type: http
+    url: "https://y1k.live/api/v1/client/subscribe?token=a71570116fa22ef06fb9dde96bf1017f"
+    interval: 86400
+    path: ./一颗机场.yaml
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+  养老机场:
+    type: http
+    url: "https://sub2.yljc.online/api/v1/client/subscribe?token=ab4497cb97b6008a2c4fbd0627a50670"
+    interval: 86400
+    path: ./养老机场.yaml
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+  便宜机场:
+    type: http
+    url: "https://sub1.timeneverchanges.com/api/v1/client/subscribe?token=5989520ca601a3caff2715e87a88f82d"
+    interval: 86400
+    path: ./便宜机场.yaml
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+  X:
+    type: http
+    url: "https://api.xjichang.buzz/api/v1/client/subscribe?token=93ba32e5b0f4320370d3d0819b26d3dc"
+    interval: 86400
+    path: ./X.yaml
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+  AnTu:
+    type: http
+    url: "https://xxxu.xyz/api/v1/client/subscribe?token=97eaec7662e14b228353c3794da1df19"
+    interval: 86400
+    path: ./AnTu.yaml
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+  sspanel:
+    type: http
+    url: "https://sspanel.npv4.com/link/PxJRLVds8374GGqv?clash=1"
+    interval: 86400
+    path: ./sspanel.yaml
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
 
 
 proxies: 
@@ -228,6 +345,7 @@ proxy-groups:
       - 一元场
       - 大白
       - 一方加速器
+      - 来一杯红茶
 
   - name: ♻️ 自动选择
     type: url-test
@@ -250,6 +368,7 @@ proxy-groups:
       - 一元场
       - 大白
       - 一方加速器
+      - 来一杯红茶
 
   - name: 🌍 国外媒体
     type: select
@@ -272,6 +391,7 @@ proxy-groups:
       - 一元场
       - 大白
       - 一方加速器
+      - 来一杯红茶
 
   - name: 📲 电报信息
     type: select
@@ -293,6 +413,7 @@ proxy-groups:
       - 一元场
       - 大白
       - 一方加速器
+      - 来一杯红茶
 
   - name: Ⓜ️ 微软服务
     type: select
@@ -314,6 +435,7 @@ proxy-groups:
       - 一元场
       - 大白
       - 一方加速器
+      - 来一杯红茶
 
   - name: 🍎 苹果服务
     type: select
@@ -335,6 +457,7 @@ proxy-groups:
       - 一元场
       - 大白
       - 一方加速器
+      - 来一杯红茶
 
   - name: 🎯 全球直连
     type: select
@@ -356,6 +479,7 @@ proxy-groups:
       - 一元场
       - 大白
       - 一方加速器
+      - 来一杯红茶
 
   - name: 🛑 全球拦截
     type: select
@@ -387,6 +511,7 @@ proxy-groups:
       - 一元场
       - 大白
       - 一方加速器
+      - 来一杯红茶
 rules:
 # 本地/局域网地址
 # 参考：https://en.wikipedia.org/wiki/Reserved_IP_addresses
