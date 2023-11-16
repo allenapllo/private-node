@@ -26,7 +26,7 @@ dns:
     - swscan.apple.com
     - mesu.apple.com
     - '*.msftconnecttest.com'
-    - '*.msftncsi.com'
+    - '*.msftncsi.com'-
     - time.*.com
     - time.*.gov
     - time.*.edu.cn
@@ -320,6 +320,33 @@ proxy-providers:
       enable: true
       interval: 600
       url: http://www.gstatic.com/generate_204
+  白嫖机场1:
+    type: http
+    url: "https://xn--04s765d.net/api/v1/client/subscribe?token=10e02bfc7dc21db44aa265227c69b8e9"
+    interval: 86400
+    path: ./白嫖机场1.yaml
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+  麻雀加速器:
+    type: http
+    url: "https://v.spwvpn.com/api/v1/client/subscribe?token=b0e4f5530b1f5fecac509b1c846176c9"
+    interval: 86400
+    path: ./麻雀加速器.yaml
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+  免流云机场:
+    type: http
+    url: "https://ddys.yunjisuan.cf/api/v1/client/subscribe?token=96cd994417935c8724f038ca1049af4e"
+    interval: 86400
+    path: ./免流云机场.yaml
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
 
 
 proxies: 
@@ -358,6 +385,9 @@ proxy-groups:
       - X
       - AnTu
       - sspanel
+      - 白嫖机场1
+      - 麻雀加速器
+      - 免流云机场
 
   - name: ♻️ 自动选择
     type: url-test
@@ -393,6 +423,9 @@ proxy-groups:
       - X
       - AnTu
       - sspanel
+      - 白嫖机场1
+      - 麻雀加速器
+      - 免流云机场
 
   - name: 🌍 国外媒体
     type: select
@@ -428,6 +461,9 @@ proxy-groups:
       - X
       - AnTu
       - sspanel
+      - 白嫖机场1
+      - 麻雀加速器
+      - 免流云机场
 
   - name: 📲 电报信息
     type: select
@@ -462,6 +498,9 @@ proxy-groups:
       - X
       - AnTu
       - sspanel
+      - 白嫖机场1
+      - 麻雀加速器
+      - 免流云机场
 
   - name: Ⓜ️ 微软服务
     type: select
@@ -496,6 +535,9 @@ proxy-groups:
       - X
       - AnTu
       - sspanel
+      - 白嫖机场1
+      - 麻雀加速器
+      - 免流云机场
 
   - name: 🍎 苹果服务
     type: select
@@ -530,6 +572,9 @@ proxy-groups:
       - X
       - AnTu
       - sspanel
+      - 白嫖机场1
+      - 麻雀加速器
+      - 免流云机场
 
   - name: 🎯 全球直连
     type: select
@@ -564,6 +609,9 @@ proxy-groups:
       - X
       - AnTu
       - sspanel
+      - 白嫖机场1
+      - 麻雀加速器
+      - 免流云机场
 
   - name: 🛑 全球拦截
     type: select
@@ -608,6 +656,9 @@ proxy-groups:
       - X
       - AnTu
       - sspanel
+      - 白嫖机场1
+      - 麻雀加速器
+      - 免流云机场
 rules:
 # 本地/局域网地址
 # 参考：https://en.wikipedia.org/wiki/Reserved_IP_addresses
