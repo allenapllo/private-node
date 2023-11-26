@@ -168,9 +168,6 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇸🇬 狮城节点
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
       - 🇰🇷 韩国节点
@@ -498,9 +495,6 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
-      - 🇸🇬 狮城节点
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
       - 🇰🇷 韩国节点
@@ -511,9 +505,6 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
-      - 🇸🇬 狮城节点
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
       - 🇰🇷 韩国节点
@@ -524,9 +515,6 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
-      - 🇸🇬 狮城节点
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
       - 🇰🇷 韩国节点
@@ -538,9 +526,6 @@ proxy-groups:
       - 🎥 奈飞节点
       - 🚀 节点选择
       - ♻️ 自动选择
-      - 🇸🇬 狮城节点
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
       - 🇰🇷 韩国节点
@@ -549,7 +534,6 @@ proxy-groups:
   - name: 📺 巴哈姆特
     type: select
     proxies:
-      - 🇨🇳 台湾节点
       - 🚀 节点选择
       - 🚀 手动切换
       - DIRECT
@@ -557,16 +541,11 @@ proxy-groups:
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇨🇳 台湾节点
-      - 🇭🇰 香港节点
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇸🇬 狮城节点
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
       - 🇰🇷 韩国节点
@@ -576,9 +555,6 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇸🇬 狮城节点
       - 🇯🇵 日本节点
       - 🚀 手动切换
   - name: 📢 谷歌FCM
@@ -587,9 +563,6 @@ proxy-groups:
       - DIRECT
       - 🚀 节点选择
       - 🇺🇲 美国节点
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇸🇬 狮城节点
       - 🇯🇵 日本节点
       - 🇰🇷 韩国节点
       - 🚀 手动切换
@@ -599,9 +572,6 @@ proxy-groups:
       - DIRECT
       - 🚀 节点选择
       - 🇺🇲 美国节点
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇸🇬 狮城节点
       - 🇯🇵 日本节点
       - 🇰🇷 韩国节点
       - 🚀 手动切换
@@ -611,9 +581,6 @@ proxy-groups:
       - DIRECT
       - 🚀 节点选择
       - 🇺🇲 美国节点
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇸🇬 狮城节点
       - 🇯🇵 日本节点
       - 🇰🇷 韩国节点
       - 🚀 手动切换
@@ -623,9 +590,6 @@ proxy-groups:
       - DIRECT
       - 🚀 节点选择
       - 🇺🇲 美国节点
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇸🇬 狮城节点
       - 🇯🇵 日本节点
       - 🇰🇷 韩国节点
       - 🚀 手动切换
@@ -635,9 +599,6 @@ proxy-groups:
       - DIRECT
       - 🚀 节点选择
       - 🇺🇲 美国节点
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇸🇬 狮城节点
       - 🇯🇵 日本节点
       - 🇰🇷 韩国节点
       - 🚀 手动切换
@@ -679,19 +640,10 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - DIRECT
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇸🇬 狮城节点
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
       - 🇰🇷 韩国节点
       - 🚀 手动切换
-  - name: 🇭🇰 香港节点
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
-    proxies: []
   - name: 🇯🇵 日本节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -749,18 +701,6 @@ proxy-groups:
       - 美国19
       - 美国20
       - 美国10
-  - name: 🇨🇳 台湾节点
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
-    proxies: []
-  - name: 🇸🇬 狮城节点
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
-    proxies: []
   - name: 🇰🇷 韩国节点
     type: url-test
     url: http://www.gstatic.com/generate_204
